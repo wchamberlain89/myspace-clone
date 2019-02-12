@@ -1,0 +1,150 @@
+* {
+  margin:0;
+  font-family:verdana;
+  font-size:8pt;
+}
+
+body {
+  background-color: rgb(229, 229, 229);
+}
+
+a{
+  text-decoration:none;
+  color:rgb(0, 51, 153);
+  font-weight:bold;
+}
+
+.main-display{
+  width:800px;
+  margin: 0 auto;
+  background-color:white;
+}
+
+.banner{
+  display:flex;
+  padding: 5px;
+  justify-content:space-between;
+  background-color:rgb(0, 51, 153);
+  height:110px;
+  color:white;
+}
+
+.header a{
+  font-weight: normal;
+  color:white;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(102, 153, 204);
+  padding: 7px 0px;
+}
+
+.navigation a {
+  padding: 0px 6px;
+  border-right: 1px solid black;
+}
+
+.navigation a:last-child {
+  border: none;
+}
+
+.leftContent {
+  padding:20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio{
+  display:flex;
+}
+
+.bio-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.profilesLinks{
+  display:flex;
+  flex-direction:column;
+}
+
+.viewMyPics{
+  align-self:center;
+  padding-top: 20px;
+}
+
+.bio h1{
+  font-size:16px;
+  padding-bottom:20px;
+}
+
+.leftContent h3 {
+  padding: 2px 0px 2px 8px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(102, 153, 204);
+}
+
+.section {
+  border: 2px solid rgb(102, 153, 204);
+  margin-top: 20px;
+}
+
+.contact-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.mySpaceURL{
+  margin-top: 20px;
+  padding-left:3px;
+  border:1px solid rgb(102, 153, 204);
+}
+
+.mySpaceURL p:last-child{
+  padding-left:2px;
+}
+
+.interest{
+  display:flex;
+}
+
+.interest-left{
+  width:100px;
+  margin:2px;
+  padding:5px;
+  background-color: rgb(177, 208, 240);
+}
+
+.interest-left p{
+  font-size: 12px;
+  color:rgb(77, 120, 203);
+  font-weight: bold;
+}
+
+.interest-right{
+  width:175px;
+  margin:2px;
+  padding:5px;
+  background-color: rgb(213, 232, 251);
+}
+
+.interest-right p {
+  margin-bottom: 10px;
+}
